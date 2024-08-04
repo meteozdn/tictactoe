@@ -41,6 +41,10 @@ class ViewController: UIViewController {
         }
     }
     
+    
+    func gameIsEnd()  {
+    }
+    
 
 }
 
