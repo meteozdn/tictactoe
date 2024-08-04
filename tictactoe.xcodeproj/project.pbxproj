@@ -99,12 +99,12 @@
 		6E87CA992C5FF66C002DE15C /* tictactoe */ = {
 			isa = PBXGroup;
 			children = (
+				6E87CACC2C5FF6A1002DE15C /* Controller */,
+				6E87CACB2C5FF698002DE15C /* View */,
+				6E87CACA2C5FF683002DE15C /* Model */,
 				6E87CA9A2C5FF66C002DE15C /* AppDelegate.swift */,
 				6E87CA9C2C5FF66C002DE15C /* SceneDelegate.swift */,
-				6E87CA9E2C5FF66C002DE15C /* ViewController.swift */,
-				6E87CAA02C5FF66C002DE15C /* Main.storyboard */,
 				6E87CAA32C5FF66E002DE15C /* Assets.xcassets */,
-				6E87CAA52C5FF66E002DE15C /* LaunchScreen.storyboard */,
 				6E87CAA82C5FF66E002DE15C /* Info.plist */,
 			);
 			path = tictactoe;
@@ -125,6 +125,30 @@
 				6E87CABD2C5FF66E002DE15C /* tictactoeUITestsLaunchTests.swift */,
 			);
 			path = tictactoeUITests;
+			sourceTree = "<group>";
+		};
+		6E87CACA2C5FF683002DE15C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6E87CACB2C5FF698002DE15C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6E87CAA52C5FF66E002DE15C /* LaunchScreen.storyboard */,
+				6E87CAA02C5FF66C002DE15C /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6E87CACC2C5FF6A1002DE15C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6E87CA9E2C5FF66C002DE15C /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -442,6 +466,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3VLQEKH826;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = tictactoe/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -469,6 +494,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3VLQEKH826;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = tictactoe/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
